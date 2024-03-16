@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+main {
+    background-color: orange;
+}
+section {
+    max-width: 800px;
+    margin: 2px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid purple;
+    
+}
+section img{
+    display:block;
+    transition: all .3s ease;
+}
+section img:hover{
+    transform: scale(1.07);
+} 
+section img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+#muc1{
+    background-image: url(images/anhcanhan.jpg);
+}
+#muc2{
+    background-image: url(images/anhcanhan.jpg);
+}
+#muc3{
+    background-image: url(images/anhcanhan.jpg);
+}
+li{
+    padding-left: 10px;
+}
+h1 {
+    color: #fff;
+}
+#td1:hover{
+    background-color: rgb(198, 247, 39);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 580px;
+}
+#td2:hover{
+    background-color: rgb(198, 247, 39);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 539px;
+}
+#td3:hover{
+    background-color: rgb(198, 247, 39);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 696px;
+}
+h2 {
+    color: #3498db;
+}
+h3 {
+    margin-bottom: 0.5px;
+}
+p {
+    margin: 0.5px 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+footer a img{
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+}
